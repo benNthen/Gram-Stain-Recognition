@@ -1,8 +1,10 @@
+[![dep1](https://img.shields.io/badge/Tensorflow-2.0+-brightgreen.svg)](https://www.tensorflow.org/) 
+[![dep2](https://img.shields.io/badge/Keras-2.0+-brightgreen.svg)](https://keras.io/) 
 # Gram-Stain-Recognition
-A program that uses artificial neural network and can recognize if an image of a microscopic slide has gram positive cells. The results are displayed in percentage
+A program that demonstrates the use of artificial neural network to recognize if an image of a microscopic slide has gram positive cells. The results are displayed in percentage.
 
 ## Training Set
-Consists of multiplile micro-images in magnification sizes of 40x, 80x, 100x. These are stored in the morph_data folder and sub-folders gram_negative and gram_positive. These images contains cells of different shapes(cocci, bacilli and spiral).
+Consists of 18 micro-images in magnification sizes of 40x, 80x and 100x. The images cells of different shapes(cocci, bacilli and spiral). These are all stored in the morph_data folder and sub-folders gram_negative and gram_positive. 
 
 ## Testing Set
 There are two images of microscopic slides containing several cells that have been gram stained. These are named gram_slide_pink.png and gram_slide_purple.png. These were randomly obtained from Google images.
