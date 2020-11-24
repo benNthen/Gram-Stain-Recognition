@@ -4,10 +4,10 @@
 A program that demonstrates the use of artificial neural network to recognize if an image of a microscopic slide has gram positive cells. The results are displayed in percentage.
 
 ## Training Set
-Consists of 18 micro-images in magnification sizes of 40x, 80x and 100x. The images cells of different shapes(cocci, bacilli and spiral). These are all stored in the morph_data folder and sub-folders gram_negative and gram_positive. 
+Consists of 18 micro-images in magnification sizes of 40x, 80x and 100x. The images consists of cells in different shapes(cocci, bacilli and spiral). These are all stored in the morph_data folder and sub-folders gram_negative and gram_positive. All of them have been converted to PNG format and re-sized with dimensions of 2013 x 1562.
 
 ## Testing Set
-There are two images of microscopic slides containing several cells that have been gram stained. These are named gram_slide_pink.png and gram_slide_purple.png. These were randomly obtained from Google images.
+There are two images of microscopic slides containing several cells that have been gram stained. These are named gram_slide_pink.png and gram_slide_purple.png. These were randomly obtained from Google images. These images have been converted to PNG format and re-sized with dimensions of 2013 x 1562. 
 
 ## How To Use
 There are three main Python files contained inside the folder which must be opened in the following order as follows:
@@ -16,7 +16,7 @@ There are three main Python files contained inside the folder which must be open
 
 2) 02_training_for_morphology.py - trains the neural network to recognize which images are gram positive and gram negative.
 
-3) 03_testing_program.py - test the program by loading one of the testing sets, by simply changing line 18 to the filename of one of the images.
+3) 03_testing_program.py - test the program by loading one of the testing sets and simply changing line 18 to the filename of one of the images.
 
 ## Demonstration
 
