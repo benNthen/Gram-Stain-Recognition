@@ -17,3 +17,21 @@ There are three main Python files contained inside the folder which must be open
 2) 02_training_for_morphology.py - trains the neural network to recognize which images are gram positive and gram negative.
 
 3) 03_testing_program.py - test the program by loading one of the testing sets, by simply changing line 18 to the filename of one of the images.
+
+## Demonstration
+
+https://github.com/benNthen/Gram-Stain-Recognition/blob/master/gram_slide_purple.png
+
+Open `03_testing_program.py` then edit line 18's `image.load_img()` with the filename `gram_side_purple.png`. Run the program.
+
+```python
+# Load the image file to test, resizing
+# it to 200x200 (as required by this model)
+>>> img = image.load_img("gram_slide_purple.png", target_size=(200, 200))
+```
+Output: 
+>>The possibility that this slide contains gram positive cells are: 100%
+
+
+
+
