@@ -22,7 +22,7 @@ There are three main Python files contained inside the folder which must be open
 
 https://github.com/benNthen/Gram-Stain-Recognition/blob/master/gram_slide_purple.png
 
-Open `03_testing_program.py` then edit line 18's `image.load_img()` with the filename `gram_side_purple.png`. Run the program.
+Opened `03_testing_program.py` then editted line 18's `image.load_img()` with the filename `gram_side_purple.png`. Run the program.
 
 ```python
 # Load the image file to test, resizing
@@ -32,6 +32,23 @@ Open `03_testing_program.py` then edit line 18's `image.load_img()` with the fil
 Output: 
 >>The possibility that this slide contains gram positive cells are: 100%
 
+https://github.com/benNthen/Gram-Stain-Recognition/blob/master/gram_slide_pink.png
 
+Opened `03_testing_program.py` then edit line 18's `image.load_img()` with the filename `gram_side_pink.png`. Run the program.
 
+```python
+# Load the image file to test, resizing
+# it to 200x200 (as required by this model)
+>>> img = image.load_img("gram_slide_pink.png", target_size=(200, 200))
+```
 
+Output: 
+>>The possibility that this slide contains gram positive cells are: 19%
+
+#### Requirements
+
+- [Python](https://www.python.org)
+- [NumPy](http://www.numpy.org) 
+- [Pandas](http://pandas.pydata.org) 
+- [Tensorflow](https://www.tensorflow.org/)
+- [Keras](https://keras.io/)
