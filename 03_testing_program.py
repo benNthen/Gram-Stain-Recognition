@@ -14,7 +14,7 @@ model = model_from_json(model_structure)
 # Re-load the model's trained weights
 model.load_weights("cell_weights.h5")
 
-# Load the image file to test, resizing it to 64x64 pixels (as required by this model)
+# Load the image file to test, resizing it to 200x200 (as required by this model)
 img = image.load_img("gram_slide_purple.png", target_size=(200, 200))
 
 # Convert the image to a numpy array
